@@ -1,4 +1,0 @@
-region = us-east-2
-AWS access portal URL: https://d-9a670bbb78.awsapps.com/start
-Username: fabiano.mlops 
-One-time password: Ckspa@578
