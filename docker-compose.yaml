@@ -1,0 +1,14 @@
+version: '3'
+
+services: 
+  devops:
+    build: .
+    container_name: devops
+    command: ["tail", "-f", "/dev/null"]
+    hostname: devops
+    volumes: 
+      - ../ansible/:/root/ansible
+      - ../terraform/:/root/terraform
+
+
+
